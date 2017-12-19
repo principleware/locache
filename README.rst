@@ -19,7 +19,9 @@ memory cache.
 Documents
 ~~~~~~~~~
 
-.. Visit documents: https://principleware.github.io/locache
+Vist documents_.
+
+.. _documents: https://principleware.github.io/locache
 
 
 
