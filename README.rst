@@ -1,3 +1,17 @@
+Important Note
+--------------
+
+This repository has been inactive for quite a while. We are using it to build
+memory cache.
+
+Documents
+---------
+
+Vist documents_.
+
+.. _documents: https://principleware.github.io/locache/locache.html
+
+
 locache
 -------
 
@@ -10,18 +24,6 @@ Usually this will be IE6 or IE7, you wont get any errors, but caching
 attempts will be silently dropped and lookups will always appear to be a
 cache miss.
 
-Important Note
-~~~~~~~~~~~~~
-
-This repository has been inactive for quite a while. We are using it to build
-memory cache.
-
-Documents
-~~~~~~~~~
-
-Vist documents_.
-
-.. _documents: https://principleware.github.io/locache
 
 
 
