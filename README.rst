@@ -2,7 +2,7 @@ Important Note
 --------------
 
 This repository has been inactive for quite a while. We are using it to build
-memory cache.
+memory cache. Some versions break up in Angular 2/4/5, because of *_defer* method.
 
 Documents
 ---------
