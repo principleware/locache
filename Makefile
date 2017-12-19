@@ -9,7 +9,7 @@ build-min:
 	@mkdir -p ./build
 	@echo "Marking version ${VERSION}"
 	@cat locache.js | sed 's/VERSION-PLACEHOLDER/${VERSION}/' > ./build/locache.${VERSION}.js
-	@closure-compiler < ./build/locache.${VERSION}.js > ./build/locache.${VERSION}.min.js
+	@google-closure-compiler-js < ./build/locache.${VERSION}.js > ./build/locache.${VERSION}.min.js
 	@cp ./build/locache.${VERSION}.js ./build/locache.js
 	@cp ./build/locache.${VERSION}.min.js ./build/locache.min.js
 

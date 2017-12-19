@@ -1,6 +1,6 @@
 /*jshint forin:true, noarg:true, noempty:true, eqeqeq:true, bitwise:true, strict:true, undef:true, unused:true, curly:true, browser:true, jquery:true, indent:4, maxerr:200 */
 
-//      locache 0.4.3
+//      locache 0.5.0
 //
 //      (c) 2012 Dougal Matthews
 //      locache may be freely distributed under the MIT license.
@@ -53,7 +53,7 @@
     }
 
     // Current version of locache, this is inserted in the build process.
-    LocacheCache.prototype.VERSION = "0.4.3";
+    LocacheCache.prototype.VERSION = "0.5.0";
 
     // Boolean value that determines if they browser supports localStorage or
     // not. This is based on the Modernizr implementation that can be found
@@ -526,7 +526,7 @@
         var length = this.storage.length();
         var prefix = this.cachePrefix;
 
-        for (var i = 0; i < length; i++) {
+        for (var i = length - 1; i >= 0; i--) {
             var key = this.storage.key(i);
             // If the key matches, remove the prefix to get the original key
             // and then make use of the normal remove method that will clean

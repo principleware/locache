@@ -1,6 +1,6 @@
 {
   "name": "locache",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "main": "build/locache.js",
   "description": "JavaScript caching framework for client side caching in the browser using localStorage",
   "ignore": [
