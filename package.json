@@ -16,6 +16,7 @@
   "bugs": {},
   "homepage": "https://github.com/principleware/locache#readme",
   "devDependencies": {
+    "docco": "^0.7.0",
     "google-closure-compiler-js": "^20171203.0.0"
   },
   "dependencies": {}
